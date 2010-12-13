@@ -1,0 +1,20 @@
+
+AFTER LOG_ON OPERATION;
+public class User_student
+{
+bool Change_information()
+{
+    BufferedReader buf;
+    buf=new BufferedReader(new InputStreamReader(System.in));    
+    if(bool name_botton == true)
+       Person.name = buf.Read();
+    if(bool sexy_botton == true)
+       Person.sexy = buf.Read();
+    if(bool age_botton == true)
+       Person.age = buf.Read();
+    if(bool from_botton == true)
+       Person.from = buf.Read();
+    if(bool phone_botton == true)
+       Person.phone = buf.Read();
+}
+}
