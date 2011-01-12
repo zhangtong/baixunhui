@@ -1,0 +1,26 @@
+
+AFTER LOG_ON OPERATION;
+public class User_management
+{
+bool inform()
+{    
+    BufferedReader buf;
+    buf=new BufferedReader(new InputStreamReader(System.in));    
+    bool botton_control;
+    if(User_group == NULL)
+       return false;
+    else 
+    {
+       string title = buf.ReadLine();
+       while( booton_control == false )
+       {
+            string text = buf.Read();
+       }
+       Text oneText = new Text(title,text,User_group)
+       Information infor_mation = new Information(oneText);
+    return true;
+    }
+}
+}
+
+
